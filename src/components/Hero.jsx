@@ -6,7 +6,7 @@ function Hero() {
     <header className='w-full flex justify-center items-center flex-col'>
         <nav className='flex justify-between item-center w-full mb-10 pt-3'>
             <img src={logo} alt='app-logo' className='w-28 object-contain'/>
-            <button type='button' onclick={()=> window.open('https://github.com/Chahine-Chahine/AI_SUMMARIZER')} className='black_btn'>
+            <button type='button' onClick={()=> window.open('https://github.com/Chahine-Chahine/AI_SUMMARIZER')} className='black_btn'>
             Github
             </button>
         </nav>
